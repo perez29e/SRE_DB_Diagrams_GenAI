@@ -7,13 +7,13 @@ print("Starting the ER diagram generation...")
 
 # Load the CSV files
 try:
-    table_info_df = pd.read_csv('/Users/perez.e.29/Results.csv')
+    table_info_df = pd.read_csv('/Users/perez.e.29/Results.csv') ##Modify to your desktop
     print("Loaded ImagePGDB.csv successfully.")
 except Exception as e:
     print(f"Error loading EnergyDBPGDB.csv: {e}")
     exit(1)
 try:
-    fk_info_df = pd.read_csv('/Users/perez.e.29/Results.csv')
+    fk_info_df = pd.read_csv('/Users/perez.e.29/Results.csv') ##Modify to your desktop
     print("Loaded ImagePGDB.csv successfully.")
 except Exception as e:
     print(f"Error loading EnergyDBGDB.csv: {e}")
